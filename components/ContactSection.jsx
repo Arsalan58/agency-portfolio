@@ -3,7 +3,7 @@
 import { useState } from 'react'
 import { useScrollReveal } from '@/hooks/useScrollReveal'
 
-const BUDGET_OPTIONS = ['Under $2k', '$2k – $5k', '$5k – $15k', '$15k – $50k', '$50k+']
+const BUDGET_OPTIONS = ['5k – 15k', '15k – 50k', '50k+']
 
 const CONTACT_DETAILS = [
   { icon: '✉', label: 'Email Us', value: 'arsalanahmed5828@gmail.com' },
