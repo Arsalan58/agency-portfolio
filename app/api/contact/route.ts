@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 import { NextRequest, NextResponse } from "next/server";
 import transporter from "@/services/nodemailer/transporter";
 export async function POST(req: NextRequest) {
